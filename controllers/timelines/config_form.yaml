@@ -1,0 +1,15 @@
+name: Timelines
+form: $/lzaplata/timelines/models/timeline/fields.yaml
+modelClass: LZaplata\Timelines\Models\Timeline
+defaultRedirect: lzaplata/timelines/timelines
+create:
+    title: 'lzaplata.timelines::lang.timeline.create.title'
+    redirect: 'lzaplata/timelines/timelines/update/:id'
+    redirectClose: lzaplata/timelines/timelines
+    flashSave: 'lzaplata.timelines::lang.timeline.create.flash'
+update:
+    title: 'lzaplata.timelines::lang.timeline.update.title'
+    redirect: lzaplata/timelines/timelines
+    redirectClose: lzaplata/timelines/timelines
+    flashSave: 'lzaplata.timelines::lang.timeline.update.flash'
+    flashDelete: 'lzaplata.timelines::lang.timeline.delete.flash'

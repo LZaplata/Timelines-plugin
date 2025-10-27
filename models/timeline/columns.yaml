@@ -1,0 +1,5 @@
+columns:
+    name:
+        label: lzaplata.timelines::lang.timeline.column.name.label
+        type: text
+        searchable: true

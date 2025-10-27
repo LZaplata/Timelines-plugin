@@ -1,0 +1,21 @@
+categories:
+    label: 'lzaplata.timelines::lang.timeline.categories.title'
+    view:
+        list: $/lzaplata/timelines/models/category/columns.yaml
+        toolbarButtons: add|remove
+        structure:
+            showReorder: true
+            showTree: false
+            showSorting: false
+    manage:
+        list: $/lzaplata/timelines/models/category/columns.yaml
+    popupSize: adaptive
+    customMessages:
+        buttonAdd: 'lzaplata.timelines::lang.category.add.title'
+        buttonUpdateForm: 'lzaplata.timelines::lang.category.update_form.title'
+        buttonRemoveMany: 'lzaplata.timelines::lang.category.remove_many.title'
+        titleAddForm: 'lzaplata.timelines::lang.category.add.title'
+        titleUpdateForm: 'lzaplata.timelines::lang.category.update.title'
+        flashAdd: 'lzaplata.timelines::lang.category.add.flash'
+        flashUpdate: 'lzaplata.timelines::lang.category.update.flash'
+        flashRemove: 'lzaplata.timelines::lang.category.remove_many.flash'

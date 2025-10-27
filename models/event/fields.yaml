@@ -1,0 +1,37 @@
+fields:
+    name:
+        label: 'lzaplata.timelines::lang.event.field.name.label'
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'lzaplata.timelines::lang.event.field.slug.label'
+        span: auto
+        hidden: 1
+        required: 1
+        preset:
+            field: name
+            type: slug
+        type: text
+    image:
+        label: 'lzaplata.timelines::lang.event.field.image.label'
+        mode: image
+        fileTypes: 'png,jpg,jpeg,svg,webp'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        maxFiles: '1'
+        span: auto
+        type: fileupload
+    categories:
+        label: 'lzaplata.timelines::lang.event.field.categories.label'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    text:
+        label: 'lzaplata.timelines::lang.event.field.text.label'
+        size: giant
+        span: full
+        type: richeditor

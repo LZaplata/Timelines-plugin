@@ -1,0 +1,15 @@
+name: Events
+form: $/lzaplata/timelines/models/event/fields.yaml
+modelClass: LZaplata\Timelines\Models\Event
+defaultRedirect: lzaplata/timelines/events
+create:
+    title: 'lzaplata.timelines::lang.event.create.title'
+    redirect: 'lzaplata/timelines/events/update/:id'
+    redirectClose: lzaplata/timelines/events
+    flashSave: 'lzaplata.timelines::lang.event.create.flash'
+update:
+    title: 'lzaplata.timelines::lang.category.update.title'
+    redirect: lzaplata/timelines/events
+    redirectClose: lzaplata/timelines/events
+    flashSave: 'lzaplata.timelines::lang.event.update.flash'
+    flashDelete: 'lzaplata.timelines::lang.event.delete.flash'

@@ -1,0 +1,72 @@
+plugin:
+    name: 'lzaplata.timelines::lang.plugin.name'
+    description: 'lzaplata.timelines::lang.plugin.description'
+    author: 'Lukáš Záplata'
+    icon: 'ph ph-line-segments'
+    homepage: ''
+permissions:
+    lzaplata.timelines.default:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.default'
+    lzaplata.timelines.category:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.category.default'
+    lzaplata.timelines.category.create:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.category.create'
+    lzaplata.timelines.category.update:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.category.update'
+    lzaplata.timelines.category.delete:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.category.delete'
+    lzaplata.timelines.event:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.event.default'
+    lzaplata.timelines.event.create:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.event.create'
+    lzaplata.timelines.event.update:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.event.update'
+    lzaplata.timelines.event.delete:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.event.delete'
+    lzaplata.timelines.timeline:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.timeline.default'
+    lzaplata.timelines.timeline.create:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.timeline.create'
+    lzaplata.timelines.timeline.update:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.timeline.update'
+    lzaplata.timelines.timeline.delete:
+        tab: 'lzaplata.timelines::lang.plugin.name'
+        label: 'lzaplata.timelines::lang.privileges.timeline.delete'
+navigation:
+    main-menu-item:
+        label: 'lzaplata.timelines::lang.plugin.name'
+        url: lzaplata/timelines/timelines
+        icon: 'ph ph-line-segments'
+        permissions:
+            - lzaplata.timelines.default
+        sideMenu:
+            side-menu-item3:
+                label: 'lzaplata.timelines::lang.menu.events.label'
+                url: lzaplata/timelines/events
+                icon: icon-newspaper-o
+                permissions:
+                    - lzaplata.timelines.event
+            side-menu-item:
+                label: 'lzaplata.timelines::lang.menu.timelines.label'
+                url: lzaplata/timelines/timelines
+                icon: 'ph ph-line-segments'
+                permissions:
+                    - lzaplata.timelines.timeline
+            side-menu-item2:
+                label: 'lzaplata.timelines::lang.menu.categories.label'
+                url: lzaplata/timelines/categories
+                icon: icon-folder
+                permissions:
+                    - lzaplata.timelines.category

@@ -1,0 +1,12 @@
+list: $/lzaplata/timelines/models/event/columns.yaml
+modelClass: LZaplata\Timelines\Models\Event
+title: Events
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'lzaplata/timelines/events/update/:id'

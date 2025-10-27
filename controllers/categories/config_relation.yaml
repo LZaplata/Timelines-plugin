@@ -1,0 +1,21 @@
+events:
+    label: 'lzaplata.timelines::lang.category.events.title'
+    view:
+        list: $/lzaplata/timelines/models/event/columns.yaml
+        toolbarButtons: add|remove
+        structure:
+            showReorder: true
+            showTree: false
+            showSorting: false
+    manage:
+        list: $/lzaplata/timelines/models/event/columns.yaml
+    popupSize: adaptive
+    customMessages:
+        buttonAdd: 'lzaplata.timelines::lang.event.add.title'
+        buttonUpdateForm: 'lzaplata.timelines::lang.event.update_form.title'
+        buttonRemoveMany: 'lzaplata.timelines::lang.event.remove_many.title'
+        titleAddForm: 'lzaplata.timelines::lang.event.add.title'
+        titleUpdateForm: 'lzaplata.timelines::lang.event.update.title'
+        flashAdd: 'lzaplata.timelines::lang.event.add.flash'
+        flashUpdate: 'lzaplata.timelines::lang.event.update.flash'
+        flashRemove: 'lzaplata.timelines::lang.event.remove_many.flash'

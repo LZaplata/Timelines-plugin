@@ -1,0 +1,9 @@
+columns:
+    name:
+        label: lzaplata.timelines::lang.category.column.name.label
+        type: text
+        searchable: true
+    events_count:
+        label: lzaplata.timelines::lang.category.column.events_count.label
+        relation: events_count
+        relationCount: true

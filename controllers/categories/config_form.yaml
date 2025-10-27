@@ -1,0 +1,15 @@
+name: Categories
+modelClass: LZaplata\Timelines\Models\Category
+form: $/lzaplata/timelines/models/category/fields.yaml
+defaultRedirect: lzaplata/timelines/categories
+create:
+    title: 'lzaplata.timelines::lang.category.create.title'
+    redirect: 'lzaplata/timelines/categories/update/:id'
+    redirectClose: lzaplata/timelines/categories
+    flashSave: 'lzaplata.timelines::lang.category.create.flash'
+update:
+    title: 'lzaplata.timelines::lang.category.update.title'
+    redirect: lzaplata/timelines/categories
+    redirectClose: lzaplata/timelines/categories
+    flashSave: 'lzaplata.timelines::lang.category.update.flash'
+    flashDelete: 'lzaplata.timelines::lang.category.delete.flash'

@@ -1,0 +1,12 @@
+columns:
+    name:
+        label: 'lzaplata.timelines::lang.event.column.name.label'
+        type: text
+        searchable: true
+    categories:
+        label: lzaplata.timelines::lang.event.column.categories.label
+        type: text
+        searchable: true
+        sortable: true
+        relation: categories
+        select: name
