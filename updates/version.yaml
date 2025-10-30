@@ -1,3 +1,5 @@
 v1.0.0:
     - 'Plugin initialization'
     - builder_table_create.php
+v1.0.1:
+    - 'Added EN localization'
